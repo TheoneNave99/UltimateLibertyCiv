@@ -22,8 +22,8 @@
 
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Liberty Incarnate",
-		"uniques": ["[+3 Production] [in all cities]", "[+3 Gold] [in all cities]", "[+3 Food] [in all cities]",
-			    "[+3 Happiness] [in all cities]", "[+2 happiness] from every specialist [in all cities]", "[+2 food] from every specialist [in all cities]"],
+		"uniques": ["[+3 Production][in all cities]","[+3 Gold][in all cities]","[+3 Food][in all cities]",
+			    "[+3 Happiness][in all cities]","[+2 Happiness] from every specialist [in all cities]", "[+2 Food] from every specialist [in all cities]"],
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
 			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
