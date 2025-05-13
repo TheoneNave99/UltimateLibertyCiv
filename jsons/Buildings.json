@@ -7,7 +7,7 @@
 		"happiness": 1,
 		"cost": 30,
 		"maintenance": 0,
-		"uniques": ["Destroyed when the city is captured", "[+10]% Production when constructing [Civilian] units [in this city]"]
+		"uniques": ["Destroyed when the city is captured", "[+10]% Production when constructing [Civilian] units [in this city]"],
 	},
 	{
 		"name": "Community Hall",
@@ -32,7 +32,7 @@
 		"cost": 20,
 		"maintenance": 0,
 		"requiredTech": "Pottery",
-		"uniques": ["[10]% Food is carried over after population increases [in this city]"]
+		"uniques": ["[10]% Food is carried over after population increases [in this city]"],
 	},
 	{
 		"name": "Public Training",
