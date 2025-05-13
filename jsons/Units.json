@@ -1,17 +1,44 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+		"name": "Citizen Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "LibertyCiv",
+		"replaces": "Warrior",
+		"movement": 3,
+		"strength": 8,
+		"cost": 30,
+		"obsoleteTech": "Replaceable Parts",
+		"promotions": ["Ignore terrain cost","Can build [Land] improvements on tiles","Can be purchased for [2] [Culture] [in all cities]""],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Private Expedition",
+		"unitType": "Civilian",
+		"uniqueTo": "LibertyCiv",
+		"replaces": "Settler",
+		"movement": 3,
+		"cost": 100,
+		"promotions": ["Ignore terrain cost"]
+		"uniques": ["Founds a new city <by consuming this unit>","Requires at least [2] population","Can be purchased for [20] [Culture] [in all cities]"],
+	},
+	{
+		"name": "Capitalist",
+		"unitType": "Civilian",
+		"movement": 5,
+		"cost": 1000,
+		"uniques": ["Can instantly construct a [Manufactory] improvement <by consuming this unit>","Can instantly construct a [Customs house] improvement <by consuming this unit>","Can instantly construct a [Landmark] improvement <by consuming this unit>",
+			    "Can instantly construct a [Academy] improvement <by consuming this unit>","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence"],
+		"requiredTech": "Guilds",
+	},
+	{
+		"name": "Propagandist",
+		"unitType": "Civilian",
+		"movement": 5,
+		"cost": 1000,
+		"uniques": [ "Empire enters a [10]-turn Golden Age <by consuming this unit>","May enter foreign tiles without open borders",
+			     "Can Spread Religion <for [1] movement> <[5] times> <after which this unit is consumed>","Removes other religions when spreading religion",
+			      "Uncapturable","[+10]% Strength bonus for [Military] units within [2] tiles","Takes your religion over the one in their birth city"],
+		"requiredTech": "Guilds",
+		"religiousStrength": 500
+	},
 ]
