@@ -7,7 +7,7 @@
 		"happiness": 1,
 		"cost": 30,
 		"maintenance": 0,
-		"uniques": ["Destroyed when the city is captured", "[+10]% Production when constructing [Civilian] units [in this city]"],
+		"uniques": ["Destroyed when the city is captured", "[+15]% Production when constructing [Civilian] units [in this city]"],
 	},
 	{
 		"name": "Community Hall",
@@ -19,8 +19,7 @@
 		"cost": 30,
 		"maintenance": 0,
 		"requiredTech": "Pottery",
-		"uniques": ["Only available <when religion is enabled>", "[+10]% Production when constructing [Civilian] units [in this city]",
-			    "Destroyed when the city is captured"]
+		"uniques": ["[+15]% Production when constructing [Civilian] units [in this city]","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Farming Festival",
@@ -41,7 +40,7 @@
 		"culture": 2,
 		"cost": 30,
 		"maintenance": 0,
-		"uniques": ["[+1 Science] per [2] population [in this city]","[+30]% Production when constructing [Civilian] units [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]","[+25]% Production when constructing [Civilian] units [in this city]"],
 		"requiredTech": "Writing"
 	},
-	
+]
