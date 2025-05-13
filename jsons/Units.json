@@ -1,16 +1,5 @@
 [
 	{
-		"name": "Citizen Warrior",
-		"unitType": "Sword",
-		"uniqueTo": "LibertyCiv",
-		"replaces": "Warrior",
-		"movement": 3,
-		"strength": 12,
-		"cost": 30,
-		"promotions": ["Can build [Land] improvements on tiles", "Ignore terrain cost"],
-		"attackSound": "nonmetalhit"
-	},
-	{
 		"name": "Private Expedition",
 		"unitType": "Civilian",
 		"uniqueTo": "LibertyCiv",
