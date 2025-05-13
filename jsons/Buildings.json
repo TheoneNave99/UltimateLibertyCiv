@@ -36,6 +36,7 @@
 	{
 		"name": "Public Training",
 		"replaces": "Library",
+		"uniqueTo": "LibertyCiv",
 		"science": 2,
 		"culture": 2,
 		"cost": 30,
