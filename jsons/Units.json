@@ -5,9 +5,8 @@
 		"uniqueTo": "LibertyCiv",
 		"replaces": "Warrior",
 		"movement": 3,
-		"strength": 8,
+		"strength": 12,
 		"cost": 30,
-		"obsoleteTech": "Replaceable Parts",
 		"promotions": ["Ignore terrain cost","Can build [Land] improvements on tiles"],
 		"attackSound": "nonmetalhit"
 	},
