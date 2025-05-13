@@ -8,7 +8,7 @@
 		"strength": 8,
 		"cost": 30,
 		"obsoleteTech": "Replaceable Parts",
-		"promotions": ["Ignore terrain cost","Can build [Land] improvements on tiles","Can be purchased for [2] [Culture] [in all cities]""],
+		"promotions": ["Ignore terrain cost","Can build [Land] improvements on tiles"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -35,9 +35,9 @@
 		"unitType": "Civilian",
 		"movement": 5,
 		"cost": 1000,
-		"uniques": [ "Empire enters a [10]-turn Golden Age <by consuming this unit>","May enter foreign tiles without open borders",
-			     "Can Spread Religion <for [1] movement> <[5] times> <after which this unit is consumed>","Removes other religions when spreading religion",
-			      "Uncapturable","[+10]% Strength bonus for [Military] units within [2] tiles","Takes your religion over the one in their birth city"],
+		"uniques": [ "Empire enters a [10]-turn Golden Age <by consuming this unit>","May enter foreign tiles without open borders","Only available <when religion is enabled>",
+			     "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>","Removes other religions when spreading religion",
+			      "Uncapturable","Takes your religion over the one in their birth city"],
 		"requiredTech": "Guilds",
 		"religiousStrength": 500
 	},
