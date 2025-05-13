@@ -1,25 +1,45 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Town Square",
+       	        "replaces": "Monument",
+		"uniqueTo": "LibertyCiv",
+		"culture": 3,
+		"happiness": 1,
+		"cost": 30,
+		"maintenance": 0,
+		"uniques": ["Destroyed when the city is captured", "[+10]% Production when constructing [Civilian] units [in this city]"]
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
-]
+		"name": "Community Hall",
+		"replaces": "Shrine",
+		"uniqueTo": "LibertyCiv",
+		"faith": 3,
+		"happiness": 1,
+		"culture": 1,
+		"cost": 30,
+		"maintenance": 0,
+		"requiredTech": "Pottery",
+		"uniques": ["Only available <when religion is enabled>", "[+10]% Production when constructing [Civilian] units [in this city]",
+			    "Destroyed when the city is captured",]
+	},
+	{
+		"name": "Farming Festival",
+		"replaces": "Granary",
+		"uniqueTo": "LibertyCiv",
+		"food": 3,
+		"happiness": 1,
+		"science": 1,
+		"cost": 20,
+		"maintenance": 0,
+		"requiredTech": "Pottery",
+		"uniques": ["[10]% Food is carried over after population increases [in this city]"]
+	},
+	{
+		"name": "Public Training",
+		"replaces": "Library",
+		"cost": 30,
+		"maintenance": 0,
+		"uniques": ["[+1 Science] per [2] population [in this city]",  "[+30]% Production when constructing [Civilian] units [in this city]",],
+		"requiredTech": "Writing"
+	},
+	
