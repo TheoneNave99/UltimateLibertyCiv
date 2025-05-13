@@ -26,9 +26,9 @@
 		"name": "Farming Festival",
 		"replaces": "Granary",
 		"uniqueTo": "LibertyCiv",
-		"food": 3,
-		"happiness": 1,
-		"science": 1,
+		"food": 2,
+		"happiness": 2,
+		"science": 2,
 		"cost": 20,
 		"maintenance": 0,
 		"requiredTech": "Pottery",
@@ -37,9 +37,11 @@
 	{
 		"name": "Public Training",
 		"replaces": "Library",
+		"science": 2,
+		"culture": 2,
 		"cost": 30,
 		"maintenance": 0,
-		"uniques": ["[+1 Science] per [2] population [in this city]",  "[+30]% Production when constructing [Civilian] units [in this city]",],
+		"uniques": ["[+1 Science] per [2] population [in this city]","[+30]% Production when constructing [Civilian] units [in this city]"],
 		"requiredTech": "Writing"
 	},
 	
